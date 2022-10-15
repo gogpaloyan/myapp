@@ -1,0 +1,55 @@
+.TodoItem{
+ 
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+    background-color: blanchedalmond;
+    transition:  1s;
+
+
+}
+
+
+.TodoItem button{
+    width: 70px ;
+    border-radius: 25px;
+    background-color: bisque;
+    cursor: pointer;
+}
+
+.TodoItem button:active{
+    width: 50px ;
+    border-radius: 25px;
+    background-color: red;
+
+}
+
+.todoItem{
+ 
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+    background-color: black;
+    transition:  1s;
+   
+
+}
+
+
+.todoItem button{
+    width: 70px ;
+    border-radius: 25px;
+    background-color: red;
+    cursor: pointer;
+    transition:  1s;
+    
+}
+
+.todoItem button:active{
+    width: 50px ;
+    border-radius: 25px;
+    background-color: red;
+
+}
+
+

@@ -1,0 +1,65 @@
+
+.TodoForm{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    transition:  1s
+}
+
+.TodoForm button{
+    width: 70px ;
+    border-radius: 25px;
+    background-color: bisque;
+    cursor: pointer;
+   
+}
+
+.TodoForm button:active{
+    width: 65px ;
+    border-radius: 25px;
+    background-color: red;
+
+}
+
+.TodoForm input{
+    border-radius: 25px;
+    width: 260px;
+}
+
+
+.todoForm{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    
+}
+
+.todoForm button{
+    width: 70px ;
+    border-radius: 25px;
+    background-color: black;
+    color: red;
+    cursor: pointer;
+}
+
+.todoForm button:active{
+    width: 65px ;
+    border-radius: 25px;
+    background-color: black;
+
+}
+
+.todoForm input{
+    border-radius: 25px;
+    background-color: red;
+    width: 260px;
+
+
+}
+
+.TodoForm input{
+    border-radius: 25px;
+
+ 
+    
+}

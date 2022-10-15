@@ -1,0 +1,32 @@
+.TodoList label{
+    padding: 10px;
+    color: black;
+    border-radius: 25px;
+    margin-top: 10px;
+    transition: 1s;
+    
+}
+
+.TodoList label:hover{
+    color: red;
+    cursor: pointer;
+ 
+}
+
+
+
+.todoList label{
+    padding: 10px;
+    color: red;
+    border-radius: 25px;
+    margin-top: 10px;
+    
+}
+
+.todoList label:hover{
+    color: white;
+    cursor: pointer;
+ 
+}
+
+

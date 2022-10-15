@@ -1,0 +1,63 @@
+.nav button{
+    width: 40px;
+}
+.nav{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    background-color: bisque;
+    border-radius: 25px;
+    text-align: center;
+    transition:  1s;
+}
+.nav a{
+    display: flex;
+    text-decoration: none;
+    color: black;
+ 
+    padding: 10px 12px;
+
+   
+}
+
+.nav a:hover{
+    color: brown;
+    background-color: white;
+    border-radius: 25px;
+    transition: 1s;
+}
+
+
+
+/*  */
+.Nav button{
+    width: 40px;
+}
+.Nav{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    background-color: red;
+    border-radius: 25px;
+    text-align: center;
+    transition:  1s;
+}
+.Nav a{
+    display: flex;
+    text-decoration: none;
+    color: black;
+    padding: 10px 12px;
+
+   
+}
+
+.Nav a:hover{
+    color: brown;
+    
+}
+.nav .active{
+    color:  red;
+}
+
+
+

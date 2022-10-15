@@ -1,0 +1,44 @@
+.TodoFooter{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    transition:  1s;
+    margin-top: 10px
+}
+
+.TodoFooter button{
+    width: 70px ;
+    border-radius: 25px;
+    background-color: bisque;
+    cursor: pointer;
+}
+
+.TodoFooter button:active{
+    width: 65px ;
+    border-radius: 25px;
+    background-color: red;
+
+}
+
+.todoFooter{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.todoFooter button{
+    color: red;
+    width: 70px ;
+    border-radius: 25px;
+    background-color: black;
+    cursor: pointer;
+    
+}
+
+.todoFooter button:active{
+    width: 65px ;
+    border-radius: 25px;
+    background-color: black;
+
+}
