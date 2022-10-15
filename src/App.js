@@ -34,7 +34,7 @@ function App() {
 
       
     </div>
-   <div className="toogle"><Toogle value={value} setValue={setValue}/>    </div>
+   <div onClick={()=> setValue(!value)} className="toogle"><Toogle value={value}/>    </div>
     </div>
          
   );

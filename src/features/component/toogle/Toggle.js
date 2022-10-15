@@ -1,11 +1,11 @@
 import "./toogle.css"
 
 
-function Toogle({value, setValue}){
+function Toogle({value}){
 
     return (
     <div className="switch">
-    <input type="checkbox" checked={value} onChange={() => setValue(!value)}/>
+    <input type="checkbox" checked={value}/>
     <span className="slider round"></span>
   </div>
     )
