@@ -64,6 +64,8 @@
 .btndel button{
   border-radius: 25px;
   cursor: pointer;
+  background-color: red;
+
 }
 
 .btndel button:active{
