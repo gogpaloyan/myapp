@@ -1,0 +1,49 @@
+.max{
+    margin-top: 25px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.maxe{
+    text-align: center;
+    color: brown;
+    padding: 5px;
+    background-color: coral;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.maxe:hover{
+   color:red;
+   background-color: brown;
+}
+
+.maxx{
+    padding: 20px;
+    background-color: red;
+    margin: 10px;
+    width: 600px;
+    text-align: center;
+}
+.but{
+    margin-top: 80px;
+    margin-bottom: 160px;
+}
+
+.max form{
+    margin-bottom: 20px;
+}
+
+.max form input{
+   width: 250px;
+   border-radius: 8px;
+}
+.max form button{
+    width: 50px;
+    border-radius: 8px;
+    cursor: pointer;
+
+}

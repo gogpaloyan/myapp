@@ -30,10 +30,11 @@ const registerSlice = createSlice({
     reducers: {
         onADD: (state, action) => {
             
+            
             return [...state, {
                 ...action.payload,
                 id: Math.random(),
-                birth: action.payload.birth + "",
+                birth: action.payload.birth + " ",
                 url: action.payload.url = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMGMDk_jjtCbTbVMrw7iflt3fMXKSz9Iqy6GupRs-y4hzwA5Ci3t9VprULZEVbx1zLz9c&usqp=CAU"
             }]
         },
@@ -43,10 +44,11 @@ const registerSlice = createSlice({
         },
 
 
+
     }
 })
 
-export const {onADD, onDelete} = registerSlice.actions
+export const {onADD, onDelete, upDate} = registerSlice.actions
 
 export const registerSelector = (state) => state.register
 

@@ -18,6 +18,11 @@ function Navbar({value}){
             <NavLink className={(navData) => navData.isActive ? s.active : "" } to="/element">Element</NavLink>
         </div>
         <div>
+            <NavLink className={(navData) => navData.isActive ? s.active : "" } to="/max">Max</NavLink>
+        </div>        <div>
+            <NavLink className={(navData) => navData.isActive ? s.active : "" } to="/memo">memo</NavLink>
+        </div>
+        <div>
       
         
 
