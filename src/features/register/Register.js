@@ -3,14 +3,22 @@ import './register.css'
 import Form1 from './form/Form1'
 import { onADD, registerSelector, onDelete } from './registerSlice'
 import { useDispatch, useSelector } from 'react-redux'
+<<<<<<< HEAD:src/features/register/Register.js
 import TextCount from '../contacts/contact/TextCount'
+=======
+import TextCount from '../contact/TextCount'
+import Max from './max/Max'
+>>>>>>> d30d0bbd3ebbd812471a5deeb8e106a861988d30:src/features/component/main/about/Register.js
 
 
 
 
 
+<<<<<<< HEAD:src/features/register/Register.js
 
 
+=======
+>>>>>>> d30d0bbd3ebbd812471a5deeb8e106a861988d30:src/features/component/main/about/Register.js
 function Register({value}){
 
 

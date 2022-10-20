@@ -34,7 +34,11 @@ const registerSlice = createSlice({
             return [...state, {
                 ...action.payload,
                 id: Math.random(),
+<<<<<<< HEAD
                 birth: JSON.stringify(action.payload.birth + " "),
+=======
+                birth: action.payload.birth + " ",
+>>>>>>> d30d0bbd3ebbd812471a5deeb8e106a861988d30
                 url: action.payload.url = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMGMDk_jjtCbTbVMrw7iflt3fMXKSz9Iqy6GupRs-y4hzwA5Ci3t9VprULZEVbx1zLz9c&usqp=CAU"
             }]
         },
@@ -48,7 +52,7 @@ const registerSlice = createSlice({
     }
 })
 
-export const {onADD, onDelete} = registerSlice.actions
+export const {onADD, onDelete, upDate} = registerSlice.actions
 
 export const registerSelector = (state) => state.register
 

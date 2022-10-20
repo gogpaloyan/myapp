@@ -12,6 +12,7 @@ export default memo(function Hjjd({videoData, onpause, onplay}){
            <div> text is called {countRef.current}</div>
             <video controls ref={videoRef} src={videoData.url}></video>
             <button onClick={() => {
+<<<<<<< HEAD
                 videoRef.current.play()
                 //onplay(videoRef)
 
@@ -19,6 +20,13 @@ export default memo(function Hjjd({videoData, onpause, onplay}){
             <button onClick={() => {
               videoRef.current.pause()
                   //onpause(videoRef)
+=======
+                onplay(videoRef)
+
+                }}>Play</button>
+            <button onClick={() => {
+               onpause(videoRef)
+>>>>>>> d30d0bbd3ebbd812471a5deeb8e106a861988d30
      
             }}>Pause</button>
 
