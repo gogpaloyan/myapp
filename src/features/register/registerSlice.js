@@ -30,10 +30,11 @@ const registerSlice = createSlice({
     reducers: {
         onADD: (state, action) => {
             
+            
             return [...state, {
                 ...action.payload,
                 id: Math.random(),
-                birth: action.payload.birth + "",
+                birth: JSON.stringify(action.payload.birth + " "),
                 url: action.payload.url = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMGMDk_jjtCbTbVMrw7iflt3fMXKSz9Iqy6GupRs-y4hzwA5Ci3t9VprULZEVbx1zLz9c&usqp=CAU"
             }]
         },
@@ -41,6 +42,7 @@ const registerSlice = createSlice({
         onDelete: (state, action) => {
             return state.filter((todo) => todo.id !== action.payload)
         },
+
 
 
     }

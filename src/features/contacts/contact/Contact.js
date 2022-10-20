@@ -1,6 +1,6 @@
 
 import { useSelector } from "react-redux"
-import { contactSelector } from "../../../contacts/contactSlice"
+import { contactSelector } from "../contactSlice"
 import s from './contact.module.css'
 import TextCount from "./TextCount"
 

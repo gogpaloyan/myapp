@@ -1,7 +1,4 @@
-.nav button{
-    width: 40px;
-}
-.nav{
+  .nav{
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
@@ -23,16 +20,14 @@
 .nav a:hover{
     color: brown;
     background-color: white;
-    border-radius: 25px;
+    border-radius: 10px;
     transition: 1s;
 }
 
 
 
 /*  */
-.Nav button{
-    width: 40px;
-}
+
 .Nav{
     display: flex;
     flex-flow: row wrap;
@@ -51,13 +46,14 @@
    
 }
 
-.Nav a:hover{
+a:hover{
     color: brown;
-    
-}
-.nav .active{
-    color:  red;
-}
+     
+} 
 
 
+nav div .actived {
+    color: red;
+    border-radius: 10px;
+}
 

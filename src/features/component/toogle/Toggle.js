@@ -1,14 +1,14 @@
 import "./toogle.css"
 
 
-function Toogle({value, setValue}){
+function Toogle({value}){
 
-    return (
-    <label class="switch">
-    <input type="checkbox" checked={value} onChange={() => setValue(!value)}/>
-    <span class="slider round"></span>
-  </label>
-    )
+
+    return <div className="switch">
+             <input type="checkbox" checked={value} onChange={(e) => {}}/> 
+             <span className="slider round"></span> 
+         </div>
+    
 }
 
 export default Toogle

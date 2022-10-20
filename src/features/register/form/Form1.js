@@ -7,8 +7,6 @@ import './form.css'
 function Form1({onAdd, value}){
 
 
-
-
     const [name, setName] = useState("")
     const [surName, setSurName] = useState("")
     const [gender, setGender] = useState("")
@@ -53,7 +51,7 @@ function Form1({onAdd, value}){
              <div><span>Gender</span></div>
              <div className={value ? "radio" : "Radio"}>
               <span><input required type="radio"  id="male" name='gender' value="male" onChange={(e) => setGender(e.target.value)}/>male</span>
-              <span><input required type="radio" name='gender' id="female" value="female" onChange={(e) => setGender(e.target.value)}/>female</span>
+              <span><input required type="radio" id="female" name='gender'  value="female" onChange={(e) => setGender(e.target.value)}/>female</span>
              </div>
            </div>
          

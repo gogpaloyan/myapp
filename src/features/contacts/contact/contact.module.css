@@ -173,9 +173,10 @@ margin: 0 auto;
 }
 
 .More{
-    background-color: RED;
+    background-color: black;
     padding: 0 10px;
     border-radius: 15px;
+    color: red;
 
     margin-left: 10px;
     cursor: pointer;
